@@ -1,11 +1,11 @@
-🦊 KURAMA
+##🦊 KURAMA
 
 Enterprise-Grade Hybrid AI Assistant
 Built with DevOps principles. Designed for intelligence, reliability, and control.
 
 Inspired by the Nine-Tailed Fox — powerful, controlled, and engineered.
 
-🧠 Overview
+#🧠 Overview
 
 KURAMA is a modular hybrid AI assistant framework designed with production-grade architecture and DevOps best practices.
 
