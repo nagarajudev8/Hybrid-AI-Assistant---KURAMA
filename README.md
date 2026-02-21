@@ -79,11 +79,9 @@ kurama/
     └── workflows/
         └── ci.yml
 ```
-⚙️ Core Capabilities (Phase 1)
-
-```bash
 ## ⚙️ Core Capabilities (Phase 1)
 
+```bash
 🧠 Local LLM inference via Ollama  
 🔐 Secure system command execution layer  
 🌐 FastAPI REST interface  
