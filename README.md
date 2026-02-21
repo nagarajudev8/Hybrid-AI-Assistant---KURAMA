@@ -23,6 +23,7 @@ KURAMA is not just a chatbot — it is an AI system engineered with infrastructu
 🏗 Architecture
 
 KURAMA follows a modular layered architecture:
+
 User Input
     ↓
 Intent Classification Layer
