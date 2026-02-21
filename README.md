@@ -52,12 +52,12 @@ Design Principles
 kurama/
 │
 ├── app.py
-├── Dockerfile
 ├── requirements.txt
+├── Dockerfile
 │
 ├── core/
-│   ├── brain.py
-│   ├── intent.py
+│   ├── chakra_engine.py     # Routing logic (formerly brain)
+│   ├── sharingan.py         # Intent classifier
 │   └── memory.py
 │
 ├── llm/
@@ -70,10 +70,9 @@ kurama/
 ├── utils/
 │   └── logger.py
 │
-└── .github/
-    └── workflows/
-        └── ci.yml
-
+└── .github/workflows/
+        ci.yml
+<pre> ```bash kurama/ │ ├── app.py ├── requirements.txt ├── Dockerfile │ ├── core/ │ ├── chakra_engine.py │ ├── sharingan.py │ └── memory.py │ ├── llm/ │ └── ollama_client.py │ ├── commands/ │ ├── executor.py │ └── allowed_commands.py │ ├── utils/ │ └── logger.py │ └── .github/ └── workflows/ └── ci.yml ``` </pre>
 
 ⚙️ Core Capabilities (Phase 1)
 
