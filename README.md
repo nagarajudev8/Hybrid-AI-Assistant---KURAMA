@@ -11,13 +11,14 @@ KURAMA is a modular hybrid AI assistant framework designed with production-grade
 
 It combines:
 
+```bash
 Local-first AI processing using Ollama
 Secure system command orchestration
 REST API interface (FastAPI)
 Containerized deployment
 CI/CD-ready architecture
 Extensible cloud intelligence (future support for providers like OpenAI)
-
+```
 KURAMA is not just a chatbot — it is an AI system engineered with infrastructure discipline.
 
 🏗 Architecture
@@ -41,13 +42,14 @@ API Output
 
 Design Principles
 
+```bash
 🔐 Security-first command validation
 🧠 Intent-driven routing logic
 ⚙️ Modular service separation
 📦 Containerized runtime
 📊 Observability-ready structure
 ☁️ Hybrid-ready (Local + Cloud extensibility)
-
+```
 
 📁 Project Structure
 
@@ -79,9 +81,11 @@ kurama/
 ```
 ⚙️ Core Capabilities (Phase 1)
 
+```bash
 Local LLM inference via Ollama
 Secure system command execution layer
 FastAPI REST interface
 Dockerized deployment
 CI pipeline integration
 Structured modular backend
+```
