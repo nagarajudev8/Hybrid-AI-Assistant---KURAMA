@@ -36,3 +36,49 @@ Local LLM             Command Executor
 Response Formatter
     ↓
 API Output
+
+Design Principles
+
+🔐 Security-first command validation
+🧠 Intent-driven routing logic
+⚙️ Modular service separation
+📦 Containerized runtime
+📊 Observability-ready structure
+☁️ Hybrid-ready (Local + Cloud extensibility)
+
+
+📁 Project Structure
+kurama/
+│
+├── app.py
+├── Dockerfile
+├── requirements.txt
+│
+├── core/
+│   ├── brain.py
+│   ├── intent.py
+│   └── memory.py
+│
+├── llm/
+│   └── ollama_client.py
+│
+├── commands/
+│   ├── executor.py
+│   └── allowed_commands.py
+│
+├── utils/
+│   └── logger.py
+│
+└── .github/
+    └── workflows/
+        └── ci.yml
+
+
+⚙️ Core Capabilities (Phase 1)
+
+Local LLM inference via Ollama
+Secure system command execution layer
+FastAPI REST interface
+Dockerized deployment
+CI pipeline integration
+Structured modular backend
