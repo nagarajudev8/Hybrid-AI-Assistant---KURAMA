@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KURAMA AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <!-- Background Glow Layer -->
+    <div class="bg-glow"></div>
+
+    <!-- Main App Container -->
+    <div class="app-wrapper">
+
+        <header class="app-header">
+            <h1>🦊 KURAMA AI</h1>
+            <p class="tagline">Hybrid Enterprise Intelligence Engine</p>
+        </header>
+
+        <section class="chat-section">
+            <div class="chat-box" id="chatBox">
+                <div class="message bot">
+                    <span>Kurama Initialized. Awaiting your command.</span>
+                </div>
+            </div>
+        </section>
+
+        <footer class="input-section">
+            <input type="text" id="userInput" placeholder="Speak your intent..." />
+            <button onclick="sendMessage()">Invoke</button>
+        </footer>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
