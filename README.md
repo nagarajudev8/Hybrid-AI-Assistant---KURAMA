@@ -24,6 +24,7 @@ KURAMA is not just a chatbot — it is an AI system engineered with infrastructu
 
 KURAMA follows a modular layered architecture:
 
+```bash
 User Input
     ↓
 Intent Classification Layer
@@ -36,6 +37,7 @@ Local LLM             Command Executor
 Response Formatter
     ↓
 API Output
+```
 
 Design Principles
 
@@ -49,29 +51,6 @@ Design Principles
 
 📁 Project Structure
 
-kurama/
-│
-├── app.py
-├── requirements.txt
-├── Dockerfile
-│
-├── core/
-│   ├── chakra_engine.py     # Routing logic (formerly brain)
-│   ├── sharingan.py         # Intent classifier
-│   └── memory.py
-│
-├── llm/
-│   └── ollama_client.py
-│
-├── commands/
-│   ├── executor.py
-│   └── allowed_commands.py
-│
-├── utils/
-│   └── logger.py
-│
-└── .github/workflows/
-        ci.yml
 ```bash
 kurama/
 │
@@ -97,7 +76,7 @@ kurama/
 └── .github/
     └── workflows/
         └── ci.yml
-
+```
 ⚙️ Core Capabilities (Phase 1)
 
 Local LLM inference via Ollama
