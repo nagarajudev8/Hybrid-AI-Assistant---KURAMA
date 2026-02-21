@@ -72,7 +72,31 @@ kurama/
 │
 └── .github/workflows/
         ci.yml
-<pre> ```bash kurama/ │ ├── app.py ├── requirements.txt ├── Dockerfile │ ├── core/ │ ├── chakra_engine.py │ ├── sharingan.py │ └── memory.py │ ├── llm/ │ └── ollama_client.py │ ├── commands/ │ ├── executor.py │ └── allowed_commands.py │ ├── utils/ │ └── logger.py │ └── .github/ └── workflows/ └── ci.yml ``` </pre>
+```bash
+kurama/
+│
+├── app.py
+├── requirements.txt
+├── Dockerfile
+│
+├── core/
+│   ├── chakra_engine.py
+│   ├── sharingan.py
+│   └── memory.py
+│
+├── llm/
+│   └── ollama_client.py
+│
+├── commands/
+│   ├── executor.py
+│   └── allowed_commands.py
+│
+├── utils/
+│   └── logger.py
+│
+└── .github/
+    └── workflows/
+        └── ci.yml
 
 ⚙️ Core Capabilities (Phase 1)
 
