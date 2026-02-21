@@ -48,6 +48,7 @@ Design Principles
 
 
 📁 Project Structure
+
 kurama/
 │
 ├── app.py
