@@ -68,6 +68,11 @@ kurama/
 ├── llm/
 │   └── ollama_client.py
 │
+├── static/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
 ├── commands/
 │   ├── executor.py
 │   └── allowed_commands.py
