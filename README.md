@@ -72,6 +72,7 @@ kurama/
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
+│   └── kurama.png
 │
 ├── commands/
 │   ├── executor.py
